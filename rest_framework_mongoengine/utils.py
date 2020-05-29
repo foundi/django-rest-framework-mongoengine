@@ -1,9 +1,9 @@
 from collections import namedtuple
 from django.core.exceptions import ImproperlyConfigured
-from django.utils import six
 
 from mongoengine.base.common import get_document
 import mongoengine
+import six
 
 from collections import OrderedDict
 import inspect
